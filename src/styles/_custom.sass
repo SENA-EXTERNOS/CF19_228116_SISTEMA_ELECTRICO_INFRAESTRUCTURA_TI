@@ -1,19 +1,127 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.titulo-principal.color-acento-contenido .titulo-principal__numero span, .acordion__accion__btn--a i
+  color: $white
 
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  color: $white
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.texto-secundario
+  color: $color-secundario
 
-  100%
-    transform: translateY(0px)
+.cajon.color-primario
+  background-color: #D2F3F8
+
+.cajon.color-secundario
+  background-color: #D8E5EF
+
+.acordion__accion__btn--a
+  background-color: #0B5999
+
+.cajon.color-acento-botones
+  background-color: #FFF2CA
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.BGR01
+  background-color: #C3CFD9
+
+.BGR01.acordion__activo
+  background-color: #EEDCA5
+
+.BGR02
+  background-color: #DBEDFD
+
+.BGR03
+  background-color: #FAF1E8
+
+.BGR04
+  background-color: #FAEAB8
+
+.BGR05
+  background-color: #BEF2F8
+
+.BGR06
+  background-color: #E4F8FB
+
+.BGR01, .BGIMG01, .BGR02, .BGIMG02, .BGR03, .BGR04, .BGR05, .BGR06
+  border-radius: 12px
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG01, .BGIMG02
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.img-end.cajon-b:before
+  top: 32%
+  bottom: 0
+  left: 55%
+  right: 0
+
+.slyder-a__bullets__item--active
+  background-color: #1B3F5E !important
+
+.slyder-a__bullets__item
+  background-color: #8FA6BA
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #F4F4F5
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px
+  
+.bloque-35 .bloque-texto-g__img
+  width: 35%
+  @media (max-width: $bp-max-md)
+    width: 100%
+
+.bloque-35 .bloque-texto-g__texto
+  width: 72%
+  @media (max-width: $bp-max-md)
+    width: 100%
+  
+.bloque-inv .bloque-texto-g__img
+  left: 60%
+  width: 40%
+  @media (max-width: $bp-max-md)
+    left: 0
+    width: 100%
+
+.bloque-inv .bloque-texto-g__texto
+  left: -35%
+  width: 65%
+  @media (max-width: $bp-max-md)
+    left: 0
+    width: 100%
+  
+.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FECC93
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #FAF1E8
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px
+
+.img-inv .tarjeta-avatar-b__img
+  right: -92%
+
+.img01
+  position: relative
+  left: 4%
+  @media (max-width: $bp-max-md)
+    left: 0

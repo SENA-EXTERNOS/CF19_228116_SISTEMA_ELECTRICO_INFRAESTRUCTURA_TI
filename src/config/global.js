@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Sistema eléctrico de la infraestructura TI',
+    descripcionCurso:
+      'El Ministerio de Minas y Energía colombiano es el ente regulador de todas las condiciones técnicas que garantizan la utilización segura y responsable de la energía eléctrica en la República de Colombia. A partir de esto es necesario conocer las regulaciones técnicas disponibles de la normatividad vigente y sus actualizaciones esenciales para poder implementar, instalar y certificar, de acuerdo con los términos de referencia, el sistema eléctrico de una infraestructura TI.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,18 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
       },
     ],
   },
@@ -32,14 +45,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Protocolo de empresas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Verificación de empresas',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipo de medición magnitudes de tensión',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Medición de corriente eléctrica',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Medición de impedancia y potencia',
+            hash: 't_1_4',
           },
         ],
       },
@@ -48,15 +79,22 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normas técnicas',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipo de tensión',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Clasificación redes eléctricas',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +139,125 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Introducción a medidas eléctricas',
+      referencia: 'Electro-Educación 08 junio 2020',
+      tipo: 'Video',
+      link: 'https://youtu.be/k34KVCuDcrI',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Los 5 instrumentos de medición eléctrica ¡más importantes!',
+      referencia: 'Villegas, Emmanuel 22 noviembre 2021',
+      tipo: 'Video',
+      link: 'https://youtu.be/mmD1vh-zbJM',
+    },
+    {
+      tema:
+        'Sistema de puesta a tierra y tierra física. - Explicación de funcionamiento',
+      referencia: 'AcademiaDII 11 febrero 2022',
+      tipo: 'Video',
+      link: 'https://youtu.be/wBJ9Lu5Mybc',
+    },
+    {
+      tema: '¿Qué es un certificado RETIE para las instalaciones eléctricas?',
+      referencia: 'Serna, Francisco febrero 15, 2021',
+      tipo: 'Blog',
+      link:
+        'https://blog.cidet.org.co/qué-es-un-certificado-retie-para-instalaciones-eléctricas',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Acreditación',
+      significado:
+        'procedimiento mediante el cual se reconoce la competencia técnica y la idoneidad de organismos de certificación e inspección, así como laboratorios de ensayo y de metrología.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Circuito',
+      significado:
+        'trayecto o ruta de una corriente eléctrica formada por conductores y que transporta energía eléctrica entre fuentes. Se define también como el recorrido preestablecido por el que se desplazan las cargas eléctricas.',
+    },
+    {
+      termino: 'Conductancia o Conductividad',
+      significado:
+        'cantidad de potencia que debe ser entregada en un punto dado de un sistema eléctrico. La conductancia está directamente relacionada con la facilidad que ofrece un material cualquiera al paso de la corriente eléctrica. La conductancia es lo opuesto a la resistencia. A mayor conductancia la resistencia disminuye, y viceversa: a mayor resistencia, menor conductancia, por lo que ambas son inversamente proporcionales.',
+    },
+    {
+      termino: 'Corriente',
+      significado:
+        'medida en amperios (A). Es el flujo de carga eléctrica a través de un hilo metálico; es semejante al flujo de agua entre dos depósitos a distinto nivel (o al caudal del aire en un tubo). El instrumento para medir la corriente es el amperímetro que se conecta en serie al circuito eléctrico.',
+    },
+    {
+      termino: 'Energía',
+      significado:
+        'es la capacidad de los cuerpos o conjunto de estos para efectuar un trabajo. Todo cuerpo material que pasa de un estado a otro produce fenómenos físicos que no son otra cosa que manifestaciones de alguna transformación de la energía.',
+    },
+    {
+      termino: 'Frecuencia',
+      significado:
+        'sistemas de cables de acero o cuerdas que, debidamente ancladas en un punto superior a la zona de labor, protegen al trabajador en su desplazamiento vertical (ascenso/descenso).',
+    },
+    {
+      termino: 'Interruptor',
+      significado:
+        'dispositivo electromecánico que abre o cierra circuitos eléctricos y tiene la capacidad de realizarlo en condiciones de corriente nominal o, en caso extremo, de corto circuito. Su apertura y cierre pueden ser de forma automática o manual.',
+    },
+    {
+      termino: 'Sobretensión',
+      significado:
+        'valor de una tensión superior a un valor de referencia o nominal. Es el exceso de tensión eléctrica en un circuito que puede causar graves daños a los equipos conectados a la corriente, desde fallas en el funcionamiento a destrucción o incendio de los mismos.',
+    },
+    {
+      termino: 'Transformador',
+      significado:
+        'dispositivo que sirve para convertir el valor de un flujo eléctrico a un valor diferente. De acuerdo con su utilización se clasifica de diferentes maneras.',
+    },
+    {
+      termino: 'Voltímetro',
+      significado:
+        'instrumento de medición destinado a indicar el valor de la tensión entre dos puntos de un circuito eléctrico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Disete Comunicaciones. (10 de agosto de 2022). Disete Comunicaciones. Obtenido de',
+      link: 'https://disete.com/instalaciones-electricas-segun-normatividad/',
+    },
+    {
+      referencia:
+        'Icontec. (s.f.). Código eléctrico colombiano. Bogotá, Colombia. Recuperado el 10 de noviembre de 2022, de',
+      link: 'https://www.evalcon.one/docs/ntc-2050-pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Minas y Energía. (s.f.). minenergia.gov.co. Recuperado el 10 de noviembre de 2022, de',
+      link:
+        'https://www.minenergia.gov.co/documents/3809/Anexo_General_del_RETIE_vigente_actualizado_a_2015-1.pdf',
+    },
+    {
+      referencia: 'ONAC. (2020, octubre 13). ONAC.',
+      link: 'https://onac.org.co',
+    },
+    {
+      referencia:
+        'RIG. (2020, julio 17). ¿Qué es el RETIE?, y porque es obligatoria la NTC 2050. Retie Ingeniería y Gestión.',
+      link: 'https://www.retieingenieriaygestion.com/que-es-el-retie/',
+    },
+    {
+      referencia: 'Sector Electricidad. (16 de agosto de 2018). Obtenido de',
+      link: 'https://www.sectorelectricidad.com/',
+    },
+    {
+      referencia:
+        'Torres Búa, M. (s.f.). Xunta de Galicia. Recuperado el 10 de noviembre de 2022, de',
+      link:
+        'https://www.edu.xunta.gal/espazoAbalar/sites/espazoAbalar/files/datos/1464947843/contido/index.html',
+    },
+    {
+      referencia:
+        'Universidad Nacional de la Plata. (s.f.). Universidad Nacional de la Plata. Recuperado el 10 de noviembre de 2022, de',
+      link:
+        'https://yold.unlp.edu.ar/frontend/media/51/27751/5c5a8f71c013ea9277e46bcf4b1658b2.pdf',
     },
   ],
   creditos: {
