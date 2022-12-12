@@ -86,7 +86,8 @@
           li(style="margin-bottom:4px")
             i.fas.fa-caret-square-right(style="color: #0B5999;")
             | Muy baja tensión (MBT): tensiones menores de 25 V.
-        p.mb-0 Toda instalación eléctrica objeto del RETIE debe asociarse a uno de los anteriores niveles. Si en la instalación existen circuitos en los que se utilicen distintas tensiones, el conjunto del sistema se clasificará en el grupo correspondiente al valor de la tensión nominal más elevada.
+        .cajon-b.color-secundario.p-3.mb-4
+          p.mb-0 Toda instalación eléctrica objeto del RETIE debe asociarse a uno de los anteriores niveles. Si en la instalación existen circuitos en los que se utilicen distintas tensiones, el conjunto del sistema se clasificará en el grupo correspondiente al valor de la tensión nominal más elevada.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img05.png")
 

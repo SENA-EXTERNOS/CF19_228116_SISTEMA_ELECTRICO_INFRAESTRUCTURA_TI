@@ -18,7 +18,7 @@
     
     .row.justify-content-around.align-items-center.mb-4
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
-        p texto Adicionalmente, se explorarán los conocimientos básicos acerca de los tipos de magnitudes de un sistema eléctrico y su relación con la simbología técnica, lo cual le permitirá identificar y conocer los equipos que cumplen con la función y normativa para poder realizar las mediciones de las unidades y magnitudes de tensión y verificar el funcionamiento de los circuitos eléctricos en sistemas de cableado estructurado de acuerdo con el plan de pruebas establecido.
+        p Adicionalmente, se explorarán los conocimientos básicos acerca de los tipos de magnitudes de un sistema eléctrico y su relación con la simbología técnica, lo cual le permitirá identificar y conocer los equipos que cumplen con la función y normativa para poder realizar las mediciones de las unidades y magnitudes de tensión y verificar el funcionamiento de los circuitos eléctricos en sistemas de cableado estructurado de acuerdo con el plan de pruebas establecido.
         .h5 Con el ánimo de exponer la importancia del tema, le invitamos a ver el siguiente video:
       .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/intro/img02.svg")
