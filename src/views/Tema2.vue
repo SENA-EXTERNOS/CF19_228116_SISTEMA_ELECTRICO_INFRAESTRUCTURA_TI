@@ -118,26 +118,26 @@
         .tarjeta-avatar-b.mb-4(data-aos="fade-right")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img07.png' alt='AvatarTop' style="width: 130%; max-width: 150%")
-          .tarjeta.tarjeta--azul.BGR04.p-5
+          .tarjeta.tarjeta--azul.BGR04.p-lg-5.p-md-4.p-3
             h4.ms-5 Redes de transporte:
             p.ms-5 Transportan la energía desde la central de generación hasta la subestación de transporte. En la subestación se reduce el voltaje para la posterior distribución.
             p.ms-5.mb-0 La red de transporte es el conjunto de líneas y subestaciones, de tensión mayor o igual a 220 kV, que llevan la energía eléctrica desde las centrales de generación hasta las subestaciones de transformación. Por ejemplo, la red de transporte en España está compuesta por más de #[b 41.200 kilómetros de líneas de alta tensión].
         .tarjeta-avatar-b.img-inv.mb-4(data-aos="fade-left")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img08.png' alt='AvatarTop' style="width: 130%; max-width: 150%; right: 50%")
-          .tarjeta.tarjeta--azul.BGR05.p-5
+          .tarjeta.tarjeta--azul.BGR05.p-lg-5.p-md-4.p-3
             h4.me-5 Redes de distribución:
             p.me-5.mb-0 Distribuye la energía eléctrica a los usuarios finales. Esta red lleva la energía eléctrica desde las subestaciones de transformación hasta los puntos de consumo #[b en media o baja tensión] (≤ 220 kV). Los gestores de las redes de distribución son las distribuidoras, las cuales son responsables de la explotación, el mantenimiento y el desarrollo de dicha red. Esta actividad viene regulada en el Real Decreto 1955/2000.
         .tarjeta-avatar-b.mb-4(data-aos="fade-right")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img09.png' alt='AvatarTop' style="width: 130%; max-width: 150%")
-          .tarjeta.tarjeta--azul.BGR04.p-5
+          .tarjeta.tarjeta--azul.BGR04.p-lg-5.p-md-4.p-3
             h4.ms-5 Red primaria:
             p.ms-5.mb-0 Está compuesta por líneas aéreas o subterráneas de media tensión (MT) de 45 kV, 66 kV, o 132 kV), y se utilizan para alimentar la red secundaria o para consumo industrial.
         .tarjeta-avatar-b.img-inv(data-aos="fade-left")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/img10.png' alt='AvatarTop' style="width: 130%; max-width: 150%; right: 50%")
-          .tarjeta.tarjeta--azul.BGR05.p-5
+          .tarjeta.tarjeta--azul.BGR05.p-lg-5.p-md-4.p-3
             h4.me-5 Red secundaria:
             p.me-5 Compuesta por líneas aéreas o subestaciones de distribución de 15 kV, 20 kV, centros de transformación de media tensión a baja tensión (MT/BT), y líneas aéreas o subterráneas de baja tensión (BT).
             p.me-5.mb-0 Las redes de distribución secundarias pueden ser privadas, para un único usuario; o públicas, para más de un usuario.
