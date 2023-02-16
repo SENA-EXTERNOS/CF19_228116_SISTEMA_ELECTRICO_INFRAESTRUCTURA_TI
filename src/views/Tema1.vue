@@ -47,10 +47,10 @@
         p Por lo tanto, requieren certificación plena, y por ende declaración de cumplimiento más dictamen de inspección, las siguientes instalaciones construidas, ampliadas o remodeladas en la vigencia del RETIE:
         ul.lista-ul--color.mb-0
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Construcciones nuevas
           li(style="margin-bottom:4px") 
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Ampliaciones y remodelaciones 
 
     .row.justify-content-around.align-items-center.mb-4
@@ -140,13 +140,13 @@
             p También denominado #[i tester], es un dispositivo eléctrico y portátil que le permite a una persona medir diferentes magnitudes eléctricas que forman parte de un circuito como corrientes, potencias, resistencias, capacidades, entre otras. En general, todos los modelos permiten medir:
             ul.lista-ul--color.mb-0
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Tensiones alternas y continuas
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Corrientes alternas y continuas
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Resistencias
           .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img11.png")

@@ -47,32 +47,6 @@ export default {
         numero: '1',
         titulo: 'Protocolo de empresas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Verificación de empresas',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Tipo de medición magnitudes de tensión',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Medición de corriente eléctrica',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Medición de impedancia y potencia',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
@@ -81,20 +55,6 @@ export default {
         numero: '2',
         titulo: 'Normas técnicas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Tipo de tensión',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Clasificación redes eléctricas',
-            hash: 't_2_2',
-          },
-        ],
       },
     ],
     subMenu: [
