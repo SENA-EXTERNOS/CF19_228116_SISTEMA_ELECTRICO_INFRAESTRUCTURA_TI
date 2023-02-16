@@ -15,36 +15,41 @@
         .h5.texto-secundario El primero de mayo de 2005 entró a regir en Colombia el Reglamento técnico de instalaciones eléctricas - RETIE. Este insumo establece medidas que garantizan la “seguridad” de las personas, de la vida animal y vegetal y la preservación del medio ambiente al prevenir, minimizar o eliminar los riesgos de origen eléctrico.<br><br>
         p.mb-0 En el reglamento se consideran como instalaciones eléctricas los circuitos con sus componentes tales como conductores, equipos, máquinas y aparatos que conforman un sistema eléctrico y que se utilizan para la generación, transmisión, transformación, distribución o uso final de la energía eléctrica dentro de los límites de tensión y frecuencia.
 
-    p Los requisitos y prescripciones técnicas del reglamento son de obligatorio cumplimiento en Colombia en todas las instalaciones nuevas, remodelaciones o ampliaciones, públicas o privadas, con valor de tensión nominal mayor o igual a 25 V y menor o igual a 500 kV de corriente alterna (CA), con frecuencia de servicio nominal inferior a 1000 Hz y mayor o igual a 48 V en corriente continua (CC).
+    .row.my-5
+      p Los requisitos y prescripciones técnicas del reglamento son de obligatorio cumplimiento en Colombia en todas las instalaciones nuevas, remodelaciones o ampliaciones, públicas o privadas, con valor de tensión nominal mayor o igual a 25 V y menor o igual a 500 kV de corriente alterna (CA), con frecuencia de servicio nominal inferior a 1000 Hz y mayor o igual a 48 V en corriente continua (CC).
+      p Por ser el RETIE la base de las instalaciones eléctricas es relevante conocer su uso específico, el cual se expone a continuación:
 
     figure.mb-4(data-aos="zoom-in")
       img(src="@/assets/curso/tema2/img02.svg")
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-10.cajon.color-secundario.p-4(data-aos="flip-up")
         p.mb-0 Profundizando lo visto, la inspección eléctrica de una instalación requiere de la observación, medición, verificación y evaluación, con el fin de buscar evidencias objetivas que indiquen que una instalación eléctrica fue realizada según los requerimientos establecidos por el Reglamento técnico de instalaciones eléctricas RETIE.
 
+    .titulo-tercero(data-aos="fade-right")
+      h3 Proceso de inspección
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        .h5 Durante dicha inspección es fundamental realizar las siguientes actividades:
-        ul.lista-ul--color.mb-0
+        b Durante dicha inspección es fundamental realizar las siguientes actividades:
+        ul.lista-ul--color.mb-0.mt-3
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Revisión de diseños, cálculos y demás documentación propia del proyecto eléctrico.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Verificación de la conformidad de los productos usados.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Visitas de seguimiento y verificación en terreno.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Registro en bitácora del inspector de las observaciones y comentarios.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Solicitud de acciones correctivas cuando se detecten no conformidades.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Mediciones y ensayos que establezca el RETIE.
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img03.svg")
@@ -60,10 +65,14 @@
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Empresas Públicas de Medellín ( EPM) y el Consorcio Energía del Caribe asumirán en Colombia, los planes de inversiones y de reducción de pérdidas orientados al mejoramiento de redes, estaciones y subestaciones y de la infraestructura en general, así como la tecnificación de los sistemas de medición.
         p.mb-0 Para permitir el uso de productos en las instalaciones de alumbrado interior o exterior que les aplique el presente reglamento, se debe demostrar el cumplimiento de los requisitos exigidos mediante un certificado de producto expedido por un organismo de certificación acreditado por el Organismo Nacional de Acreditación de Colombia (ONAC).
-    
+
+      p.mt-4 Del resultado de este proceso normativo se concluye que, para el uso de cualquier instalación eléctrica se deben aplicar las normas a las redes eléctricas y el uso de la tensión.
+
+
     separador
-    #t_2_1.titulo-segundo.color-primario(data-aos="fade-right")
-      h2 2.1 Tipos de tensión
+
+    .titulo-tercero.mb-5(data-aos="fade-right")
+      h3 Tensión eléctrica
     
     p La tensión eléctrica es una magnitud física que puede cuantificar la diferencia de potencial eléctrico entre dos puntos en específico. Es decir, el voltaje que viaja de un cuerpo a otro, y al que comúnmente conocemos como voltaje. La unidad de medida utilizada por la tensión eléctrica es el voltio.
     
@@ -72,26 +81,26 @@
         .h5 Estos son los niveles de tensión para sistemas de corriente alterna, los cuales se adoptan de la NTC 1340:
         ul.lista-ul--color.mb-0
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Extra alta tensión (EAT): corresponde a tensiones superiores a 230 kV.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Alta tensión (AT): tensiones mayores o iguales a 57,5 kV y menores o iguales a 230 kV.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Media tensión (MT): los de tensión nominal superior a 1000 V e inferior a 57,5 kV.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Baja tensión (BT): los de tensión nominal mayor o igual a 25 V y menor o igual a 1000 V.
           li(style="margin-bottom:4px")
-            i.fas.fa-caret-square-right(style="color: #0B5999;")
+            i.fas.fa-angle-right(style="color: #0B5999;")
             | Muy baja tensión (MBT): tensiones menores de 25 V.
         .cajon-b.color-secundario.p-3.mb-4
           p.mb-0 Toda instalación eléctrica objeto del RETIE debe asociarse a uno de los anteriores niveles. Si en la instalación existen circuitos en los que se utilicen distintas tensiones, el conjunto del sistema se clasificará en el grupo correspondiente al valor de la tensión nominal más elevada.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img05.png")
 
-    .h5 Categoría de los niveles de tensión
+    h4 Categoría de los niveles de tensión
     p Los niveles de tensión también se dividen en las siguientes categorías:
 
     .row.justify-content-around.mb-4
@@ -105,11 +114,13 @@
           p(numero="4" titulo="Nivel 4") Sistemas con tensión nominal mayor o igual a 57,5 kV y menor a 220 kV. Industriales - Subcentral a subcentral - Torres eléctricas robustas y grandes.
 
     separador
-    #t_2_2.titulo-segundo.color-primario(data-aos="fade-right")
-      h2 2.2 Clasificación redes eléctricas
+
+
+    .titulo-tercero(data-aos="fade-right")
+      h3 Redes eléctricas
     
     .cajon.color-secundario.p-4.mb-4(data-aos="flip-up")
-      p.mb-0 Una red eléctrica es la que se encarga de suministrar electricidad a los consumidores. Sus inicios fueron durante la Revolución Industrial y al día de hoy dan servicio a millones de hogares. #[b Thomas Edison] fue quien inventó el sistema de red eléctrico que suministraba energía para la iluminación.
+      p.mb-0 Una red eléctrica es la que se encarga de suministrar electricidad a los consumidores. Sus inicios fueron durante la Revolución Industrial y al día de hoy dan servicio a millones de hogares. #[strong Thomas Edison] fue quien inventó el sistema de red eléctrica que suministraba energía para la iluminación.
 
     p Las redes eléctricas se clasifican en:
 
@@ -142,13 +153,19 @@
             p.me-5 Compuesta por líneas aéreas o subestaciones de distribución de 15 kV, 20 kV, centros de transformación de media tensión a baja tensión (MT/BT), y líneas aéreas o subterráneas de baja tensión (BT).
             p.me-5.mb-0 Las redes de distribución secundarias pueden ser privadas, para un único usuario; o públicas, para más de un usuario.
 
-    .h5 Regulación de potencia
-    figure.mb-4(data-aos="zoom-in")
+    .row.mb-3
+      p En el siguiente video se expone la importancia de la potencia eléctrica y su regulación.
+
+
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p Un insumo muy importante durante la instalación es el cableado eléctrico, elemento fabricado y pensado para conducir electricidad. El material principal con el que están fabricados es el cobre, por su alto grado de conductividad, aunque también se utiliza el aluminio que, a pesar de ser menos conductivo, resulta más económico que el cobre.
-    p Los cables eléctricos están compuestos por:
+    .titulo-tercero(data-aos="fade-right")
+      h3 Cables eléctricos
+    .row.mb-4
+      p Un insumo muy importante durante la instalación es el cableado eléctrico, elemento fabricado y pensado para conducir electricidad. El material principal con el que están fabricados los cables es el cobre, por su alto grado de conductividad, aunque también se utiliza el aluminio que, a pesar de ser menos conductivo, resulta más económico que el cobre.
+      p Los cables eléctricos están compuestos por:
 
     .row.justify-content-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -157,19 +174,19 @@
             p Es la parte del cable que transporta la electricidad y puede estar constituido por uno o más hilos de cobre o aluminio. Dependiendo de la tensión para la que están preparados, los cables se categorizan en grupos de tensiones que van por rangos de voltios:
             ul.lista-ul--color.mb-0
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Cables de muy baja tensión (hasta 50 V)
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Cables de baja tensión (hasta 1000 V)
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Cables de media tensión (hasta 30 kV)
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Cables de alta tensión (hasta 66 kV)
               li(style="margin-bottom:4px")
-                i.fas.fa-caret-square-right(style="color: #0B5999;")
+                i.fas.fa-angle-right(style="color: #0B5999;")
                 | Cables de muy alta tensión (por encima de los 770 kV)
           div(titulo="Aislamiento")
             p.mb-0 Este componente es la parte que recubre el conductor, se encarga de que la corriente eléctrica no se escape del cable y de que sea transportada de principio a fin por el conductor.
@@ -177,8 +194,8 @@
             p.mb-0 Se encuentra entre el aislamiento y el conductor. Se encarga de que el cable conserve un aspecto circular, ya que en muchas ocasiones los conductores no son redondos o tienen más de un hilo. Con la capa de relleno se logra el aspecto homogéneo necesario.
           div(titulo="Cubierta")
             p.mb-0 Es el material que protege al cable de la intemperie y de elementos externos.
-          div(titulo="Hay tres tipos de cables")
-            p.mb-0 Coaxial, par trenzado, fibra óptica. Cada uno aporta una solución a los problemas ya mencionados anteriormente. El cable par trenzado es parecido al cable telefónico.
+          div(titulo="Tipos de cables")
+            p.mb-0 Existen tres tipos de cable: coaxial, par trenzado, fibra óptica. Cada uno aporta una solución a los problemas ya mencionados anteriormente. El cable par trenzado es parecido al cable telefónico.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img11.png")
 
@@ -197,7 +214,7 @@
         p.ms-5.me-4.mb-0 Los totalizadores son un dispositivo esencial en el mundo moderno, y uno de los mecanismos de seguridad más importantes en cualquier casa, edificio o industria. Cuando un cableado eléctrico en un edificio tiene demasiada corriente, estos simples elementos la cortan hasta que alguien solucione el problema.
 
     .cajon.color-acento-botones.p-4(data-aos="flip-up")
-      p.mb-0 #[b Estimado aprendiz]: hemos llegado al final de este componente formativo. Le invitamos a continuar recorriendo este camino lleno de aprendizajes. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en donde encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros recursos.
+      p.mb-0 Estimado aprendiz, hemos llegado al final de este componente formativo. Le invitamos a continuar recorriendo este camino lleno de aprendizajes. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en donde encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros recursos.
 
 </template>
 
