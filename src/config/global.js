@@ -180,17 +180,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Disete Comunicaciones. (10 de agosto de 2022). Disete Comunicaciones. Obtenido de',
+        '<i>Disete</i> Comunicaciones. (10 de agosto de 2022). <i>Disete Comunicaciones.</i> Obtenido de',
       link: 'https://disete.com/instalaciones-electricas-segun-normatividad/',
     },
     {
       referencia:
-        'Icontec. (s.f.). Código eléctrico colombiano. Bogotá, Colombia. Recuperado el 10 de noviembre de 2022, de',
+        'Icontec. (s.f.). <i>Código eléctrico colombiano.</i> Bogotá, Colombia. Recuperado el 10 de noviembre de 2022, de',
       link: 'https://www.evalcon.one/docs/ntc-2050-pdf',
     },
     {
       referencia:
-        'Ministerio de Minas y Energía. (s.f.). minenergia.gov.co. Recuperado el 10 de noviembre de 2022, de',
+        'Ministerio de Minas y Energía. (s.f.). <i>minenergia.gov.co.</i> Recuperado el 10 de noviembre de 2022, de',
       link:
         'https://www.minenergia.gov.co/documents/3809/Anexo_General_del_RETIE_vigente_actualizado_a_2015-1.pdf',
     },
@@ -200,7 +200,7 @@ export default {
     },
     {
       referencia:
-        'RIG. (2020, julio 17). ¿Qué es el RETIE?, y porque es obligatoria la NTC 2050. Retie Ingeniería y Gestión.',
+        'RIG. (2020, julio 17). <i>¿Qué es el RETIE?, y porque es obligatoria la NTC 2050.</i> Retie Ingeniería y Gestión.',
       link: 'https://www.retieingenieriaygestion.com/que-es-el-retie/',
     },
     {
@@ -209,13 +209,12 @@ export default {
     },
     {
       referencia:
-        'Torres Búa, M. (s.f.). Xunta de Galicia. Recuperado el 10 de noviembre de 2022, de',
-      link:
-        'https://www.edu.xunta.gal/espazoAbalar/sites/espazoAbalar/files/datos/1464947843/contido/index.html',
+        'Torres Búa, M. (s.f.). <i>Xunta de Galicia.</i> Recuperado el 10 de noviembre de 2022.',
+      link: '',
     },
     {
       referencia:
-        'Universidad Nacional de la Plata. (s.f.). Universidad Nacional de la Plata. Recuperado el 10 de noviembre de 2022, de',
+        'Universidad Nacional de la Plata. (s.f.). <i>Universidad Nacional de la Plata.</i> Recuperado el 10 de noviembre de 2022, de',
       link:
         'https://yold.unlp.edu.ar/frontend/media/51/27751/5c5a8f71c013ea9277e46bcf4b1658b2.pdf',
     },

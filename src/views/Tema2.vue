@@ -24,7 +24,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.cajon.color-secundario.p-4(data-aos="flip-up")
-        p.mb-0 Profundizando lo visto, la inspección eléctrica de una instalación requiere de la observación, medición, verificación y evaluación, con el fin de buscar evidencias objetivas que indiquen que una instalación eléctrica fue realizada según los requerimientos establecidos por el Reglamento técnico de instalaciones eléctricas RETIE.
+        p.mb-0 Profundizando lo visto, la inspección eléctrica de una instalación requiere de la observación, medición, verificación y evaluación, con el fin de buscar evidencias objetivas que indiquen que una instalación eléctrica fue realizada según los requerimientos establecidos por el #[i Reglamento técnico de instalaciones eléctricas RETIE.]
 
     .titulo-tercero(data-aos="fade-right")
       h3 Proceso de inspección
@@ -213,7 +213,7 @@
         p.ms-5.me-4 En caso de que se encuentren fallas en las instalaciones, aparecen los totalizadores, que cumplen la función de interrumpir la corriente eléctrica después de detectada la falla. En términos simples, el totalizador está diseñado para apagar la alimentación en caso de una emergencia.
         p.ms-5.me-4.mb-0 Los totalizadores son un dispositivo esencial en el mundo moderno, y uno de los mecanismos de seguridad más importantes en cualquier casa, edificio o industria. Cuando un cableado eléctrico en un edificio tiene demasiada corriente, estos simples elementos la cortan hasta que alguien solucione el problema.
 
-    .cajon.color-acento-botones.p-4(data-aos="flip-up")
+    .cajon.color-acento-botones.p-4.my-5
       p.mb-0 Estimado aprendiz, hemos llegado al final de este componente formativo. Le invitamos a continuar recorriendo este camino lleno de aprendizajes. Recuerde explorar los recursos que se encuentran disponibles. Diríjase al menú principal en donde encontrará la síntesis del tema abordado, una actividad didáctica, material complementario, entre otros recursos.
 
 </template>

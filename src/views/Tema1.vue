@@ -11,26 +11,26 @@
       .col-lg-2.col-4.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img01.svg")
       .col-lg-10(data-aos="fade-left")
-        p En Colombia, el Icontec, basado en el documento correspondiente a la norma de la NFPA (Asociación Nacional de Protección Contra Incendios), que es la máxima autoridad de incendios de los Estados Unidos de América, escribió y adaptó la Norma Técnica Colombiana NTC 2050, la cual, rige todo el mantenimiento y las instalaciones eléctricas que se deben aplicar en el país. Esta norma o Código eléctrico colombiano refiere e indica el modelo de respuesta a las necesidades nacionales en aspectos de seguridad para las instalaciones eléctricas, el cual garantiza el uso seguro y confiable.
+        p En Colombia, el Icontec, basado en el documento correspondiente a la norma de la NFPA (Asociación Nacional de Protección Contra Incendios), que es la máxima autoridad de incendios de los Estados Unidos de América, escribió y adaptó la Norma Técnica Colombiana NTC 2050, la cual, rige todo el mantenimiento y las instalaciones eléctricas que se deben aplicar en el país. Esta norma o #[i Código eléctrico colombiano] refiere e indica el modelo de respuesta a las necesidades nacionales en aspectos de seguridad para las instalaciones eléctricas, el cual garantiza el uso seguro y confiable.
         p.mb-0 Los requisitos presentados en este código propenden por el uso eficiente de la energía, obedeciendo a la necesidad de preservar sus fuentes como uno de los objetivos medioambientales que se deben lograr para evitar el agotamiento de los recursos naturales.
 
     .row.justify-content-center.mb-4
       .col-lg-10.cajon.color-primario.p-4(data-aos="flip-up")
-        p Sin lugar a dudas, el Código eléctrico colombiano (NTC 2050, 2020) es una herramienta fundamental para el sector eléctrico nacional en general y, en particular, para los profesionales y expertos que se desempeñan en esta área ya que establece los requisitos que unos solicitan y otros deben aplicar con el propósito de brindar transparencia en los procesos de contratación y calidad de ejecución de los trabajos, todo enfocado al beneficio de los clientes y los usuarios en todos los niveles.
-        p.mb-0 Sin embargo, esta norma es bastante amplia y compleja, de difícil aplicación en el territorio colombiano, por tanto el Ministerio de Minas y Energía, basado en la aplicación de buenas prácticas y con la colaboración y apoyo de profesionales y empresas del sector eléctrico en Colombia, resumió el código y formuló el Reglamento técnico de instalaciones eléctricas - RETIE (2013), que es de obligatorio cumplimiento. 
+        p Sin lugar a dudas, el #[i Código eléctrico colombiano] (NTC 2050, 2020) es una herramienta fundamental para el sector eléctrico nacional en general y, en particular, para los profesionales y expertos que se desempeñan en esta área ya que establece los requisitos que unos solicitan y otros deben aplicar con el propósito de brindar transparencia en los procesos de contratación y calidad de ejecución de los trabajos, todo enfocado al beneficio de los clientes y los usuarios en todos los niveles.
+        p.mb-0 Sin embargo, esta norma es bastante amplia y compleja, de difícil aplicación en el territorio colombiano, por tanto el Ministerio de Minas y Energía, basado en la aplicación de buenas prácticas y con la colaboración y apoyo de profesionales y empresas del sector eléctrico en Colombia, resumió el código y formuló el #[i Reglamento técnico de instalaciones eléctricas - RETIE] (2013), que es de obligatorio cumplimiento. 
 
     .row.justify-content-center.mb-4
       .col-lg-3.col-6.mb-lg-0.mb-4(data-aos="fade-right")
         img(src="@/assets/curso/tema1/img02.png")
       .col-lg-9(data-aos="fade-left")
-        p En el Reglamento técnico de instalaciones eléctricas - RETIE se establecen los requisitos que garantizan los objetivos legítimos de protección contra los riesgos de origen eléctrico. Para esto se han recopilado los preceptos esenciales que definen el ámbito de aplicación y las características básicas de las instalaciones eléctricas, así como algunos requisitos que pueden incidir en las relaciones entre las personas que interactúan con las instalaciones eléctricas, el servicio y los usuarios de la electricidad.
+        p En el #[i Reglamento técnico de instalaciones eléctricas - RETIE] se establecen los requisitos que garantizan los objetivos legítimos de protección contra los riesgos de origen eléctrico. Para esto se han recopilado los preceptos esenciales que definen el ámbito de aplicación y las características básicas de las instalaciones eléctricas, así como algunos requisitos que pueden incidir en las relaciones entre las personas que interactúan con las instalaciones eléctricas, el servicio y los usuarios de la electricidad.
         p En el contenido de dicho documento también podemos encontrar principalmente los parámetros a tener en cuenta y los capítulos fundamentales de cumplimiento obligatorio:
         AcordionA.mb-5(tipo="a" clase-tarjeta="BGR01")
           div(titulo="Parametros")
             p.mb-0 Los parámetros más importantes que deben ser tenidos en cuenta al momento de diseñar, construir, mantener y modificar una instalación eléctrica en Colombia de la manera más segura posible ―algunos los conocen como normas de electricidad en Colombia―. Si bien este RETIE no se trata de una guía de diseño eléctrico, ya que esta labor debe ser llevada a cabo por personal competente que ponga en práctica los cálculos e ingeniería necesaria según lo establecido en él, es importante tener en cuenta que este es de “obligatorio” cumplimiento en el país.
           div(titulo="Obligatorio")
-            p El obligatorio cumplimiento de los primeros siete capítulos del Código eléctrico colombiano NTC 2050 (también conocidos como normas del RETIE), mediante el artículo 27.1 «Aplicación de normas técnicas». 
-            p.mb-0 La edición de 1996 de la especificación NFPA 70, la primera actualización del 25 de noviembre de 1998 y la NTC 2050 (Código eléctrico colombiano) fueron parte del enfoque que debe tener la especificación para el uso de energía eléctrica, incluyendo sus primeros siete capítulos de aplicación obligatoria. 
+            p El obligatorio cumplimiento de los primeros siete capítulos del #[i Código eléctrico colombiano] NTC 2050 (también conocidos como normas del RETIE), mediante el artículo 27.1 «Aplicación de normas técnicas». 
+            p.mb-0 La edición de 1996 de la especificación NFPA 70, la primera actualización del 25 de noviembre de 1998 y la NTC 2050 (#[i Código eléctrico colombiano]) fueron parte del enfoque que debe tener la especificación para el uso de energía eléctrica, incluyendo sus primeros siete capítulos de aplicación obligatoria. 
 
     separador
 
@@ -54,6 +54,9 @@
             | Ampliaciones y remodelaciones 
 
     .row.justify-content-around.align-items-center.mb-4
+
+      h3 Inspección y certificación
+
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Profundizando en este tema, cuando una empresa solicita la inspección y la certificación de las instalaciones eléctricas, según normatividad y actualización RETIE, estas deben ser dictaminadas por el organismo competente que certifique el cumplimiento de la norma. Dicha certificación estará disponible para consulta a través de la página web del Ministerio de Minas y Energía de Colombia.
         .h5.mb-0 Para llevar a cabo este proceso de certificación es importante tener en cuenta: 
@@ -81,7 +84,7 @@
     separador
 
     .titulo-tercero.mb-5(data-aos="fade-right")
-      h3 Inspección y certificación
+      h3 Tipo de medición
       p Es fundamental tener claros algunos aspectos para poder realizar un trabajo eficaz en una instalación eléctrica como son las magnitudes eléctricas, métodos de medición y unidad de medida, los cuales se exponen a continuación:
 
     .titulo-tercero.mb-5(data-aos="fade-right")
@@ -201,7 +204,7 @@
     .titulo-tercero.mb-5(data-aos="fade-right")
       h3 Impedancia
 
-    p indica la resistencia compleja u oposición al flujo de corriente alterna. Se expresa usando el símbolo Z y el ohmio (Ω) como una unidad. Los números más grandes indican una mayor resistencia al flujo de electricidad, mientras que los números más pequeños indican menos resistencia.
+    p Indica la resistencia compleja u oposición al flujo de corriente alterna. Se expresa usando el símbolo Z y el ohmio (Ω) como una unidad. Los números más grandes indican una mayor resistencia al flujo de electricidad, mientras que los números más pequeños indican menos resistencia.
     .h5.my-4(data-aos="fade-right") <span style="background-color: #F4EBD3; padding: 5px">Los instrumentos más utilizados para la medición de impedancia son el medidor o puente LCR y el analizador de impedancia.</span>
     p Los medidores LCR y los medidores de impedancia están diseñados para probar y validar la impedancia de componentes electrónicos en ciertas frecuencias o en una amplia gama de frecuencias. Si la impedancia no es acorde con las especificaciones, el circuito no funcionará según lo previsto.
 
@@ -213,9 +216,9 @@
         img(src="@/assets/curso/tema1/img18.svg")
       .col-lg-6(data-aos="fade-left")
         .cajon.color-primario.p-3
-          p Por su lado, la potencia es la magnitud física que relaciona la energía consumida en una unidad de tiempo (un segundo, por ejemplo). En el sistema internacional (SI) la unidad de medición de la potencia es el W (vatio).
+          p Por su lado, la #[b potencia] es la magnitud física que relaciona la energía consumida en una unidad de tiempo (un segundo, por ejemplo). En el sistema internacional (SI) la unidad de medición de la potencia es el W (vatio).
           p La potencia eléctrica se puede definir como la cantidad de energía eléctrica que se genera o se consume cada segundo.
-          p.mb-0 El siguiente ejemplo ilustra lo indicado. La potencia de una lámpara o bombilla sería la cantidad de luz que emite por unidad de tiempo. En un timbre, la cantidad de sonido que emite por unidad de tiempo; en un radiador, la cantidad de calor que emite por unidad de tiempo. Se mide en vatios (W) y se representa con la letra P.
+          p.mb-0 El siguiente ejemplo ilustra lo indicado. La potencia de una lámpara o bombilla sería la cantidad de luz que emite por unidad de tiempo. En un timbre, la cantidad de sonido que emite por unidad de tiempo; en un radiador, la cantidad de calor que emite por unidad de tiempo. Se mide en #[b vatios (W)] y se representa con la letra #[b P].
 
 </template>
 
