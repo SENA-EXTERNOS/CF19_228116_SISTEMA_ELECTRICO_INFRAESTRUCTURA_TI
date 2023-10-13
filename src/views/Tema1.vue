@@ -133,7 +133,7 @@
           .col-lg-6.order-lg-1.order-2
             .h4 Óhmetro u Ohmímetro
             p Dispositivo que se usa para medir la resistencia eléctrica de un circuito. Tal como su nombre lo indica, el ohmímetro registra los ohmios.
-            p Se puede definir como un instrumento que mide la resistencia (a diferencia de la corriente). Un micro-ohmímetro (#[em micro-ohmmeter o micro-ohmmeter]) permite mediciones de baja resistencia. Un megóhmetro o megóhmetro o megóhmetro (cualquier marca de estos dispositivos) mide el valor de una gran resistencia.
+            p Se puede definir como un instrumento que mide la resistencia (a diferencia de la corriente). Un micro-ohmímetro (#[em micro-ohmmeter]) permite mediciones de baja resistencia. Un megóhmetro (cualquier marca de estos dispositivos) mide el valor de una gran resistencia.
             p.mb-0 La unidad de resistencia es ohmios (Ω). Hoy en día, los ohmímetros suelen estar integrados en multímetros, los cuales son unos instrumentos multifuncionales y mucho más complejos que no solo miden resistencia, sino también voltaje (V), amperaje (A), entre otros valores. En cualquier caso, su escala es fácilmente identificable por la letra griega omega (Ω).
           .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img10.png")

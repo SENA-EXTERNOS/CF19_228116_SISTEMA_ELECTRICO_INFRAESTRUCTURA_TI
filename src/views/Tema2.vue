@@ -63,7 +63,7 @@
         img(src="@/assets/curso/tema2/img04.png")
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Empresas Públicas de Medellín ( EPM) y el Consorcio Energía del Caribe asumirán en Colombia, los planes de inversiones y de reducción de pérdidas orientados al mejoramiento de redes, estaciones y subestaciones y de la infraestructura en general, así como la tecnificación de los sistemas de medición.
+          p.mb-0 Empresas Públicas de Medellín (EPM) y el Consorcio Energía del Caribe asumirán en Colombia, los planes de inversiones y de reducción de pérdidas orientados al mejoramiento de redes, estaciones y subestaciones y de la infraestructura en general, así como la tecnificación de los sistemas de medición.
         p.mb-0 Para permitir el uso de productos en las instalaciones de alumbrado interior o exterior que les aplique el presente reglamento, se debe demostrar el cumplimiento de los requisitos exigidos mediante un certificado de producto expedido por un organismo de certificación acreditado por el Organismo Nacional de Acreditación de Colombia (ONAC).
 
       p.mt-4 Del resultado de este proceso normativo se concluye que, para el uso de cualquier instalación eléctrica se deben aplicar las normas a las redes eléctricas y el uso de la tensión.
@@ -108,7 +108,7 @@
         img(src="@/assets/curso/tema2/img06.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Nivel 1") Sistemas con tensión nominal menor a 1 kV. ( Fuente: R.CREG - 097- 2008; Art. 1) - Casa.
+          p(numero="1" titulo="Nivel 1") Sistemas con tensión nominal menor a 1 kV. (Fuente: R.CREG - 097- 2008; Art. 1) - Casa.
           p(numero="2" titulo="Nivel 2") Sistemas con tensión nominal mayor o igual a 1 kV y menor de 30 kV. Redes de tensión 11,4 - Bogotá y alrededores.
           p(numero="3" titulo="Nivel 3") Sistemas con tensión nominal mayor o igual a 30 kV y menor de 57,5 kV. Redes de tensión 34,5 kV - Industriales.
           p(numero="4" titulo="Nivel 4") Sistemas con tensión nominal mayor o igual a 57,5 kV y menor a 220 kV. Industriales - Subcentral a subcentral - Torres eléctricas robustas y grandes.
