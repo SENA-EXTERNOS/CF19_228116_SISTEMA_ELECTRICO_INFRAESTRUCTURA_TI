@@ -26,7 +26,7 @@
         p En el #[i Reglamento técnico de instalaciones eléctricas - RETIE] se establecen los requisitos que garantizan los objetivos legítimos de protección contra los riesgos de origen eléctrico. Para esto se han recopilado los preceptos esenciales que definen el ámbito de aplicación y las características básicas de las instalaciones eléctricas, así como algunos requisitos que pueden incidir en las relaciones entre las personas que interactúan con las instalaciones eléctricas, el servicio y los usuarios de la electricidad.
         p En el contenido de dicho documento también podemos encontrar principalmente los parámetros a tener en cuenta y los capítulos fundamentales de cumplimiento obligatorio:
         AcordionA.mb-5(tipo="a" clase-tarjeta="BGR01")
-          div(titulo="Parametros")
+          div(titulo="Parámetro")
             p.mb-0 Los parámetros más importantes que deben ser tenidos en cuenta al momento de diseñar, construir, mantener y modificar una instalación eléctrica en Colombia de la manera más segura posible ―algunos los conocen como normas de electricidad en Colombia―. Si bien este RETIE no se trata de una guía de diseño eléctrico, ya que esta labor debe ser llevada a cabo por personal competente que ponga en práctica los cálculos e ingeniería necesaria según lo establecido en él, es importante tener en cuenta que este es de “obligatorio” cumplimiento en el país.
           div(titulo="Obligatorio")
             p El obligatorio cumplimiento de los primeros siete capítulos del #[i Código eléctrico colombiano] NTC 2050 (también conocidos como normas del RETIE), mediante el artículo 27.1 «Aplicación de normas técnicas». 
