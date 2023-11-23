@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="444" height="443.001" viewBox="0 0 444 443.001">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#54ceff"/>
+      <stop offset="0.172" stop-color="#54ceff" stop-opacity="0.773"/>
+      <stop offset="0.398" stop-color="#54ceff" stop-opacity="0.502"/>
+      <stop offset="0.601" stop-color="#54ceff" stop-opacity="0.286"/>
+      <stop offset="0.776" stop-color="#54ceff" stop-opacity="0.129"/>
+      <stop offset="0.914" stop-color="#54ceff" stop-opacity="0.035"/>
+      <stop offset="0.999" stop-color="#54ceff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_909073" data-name="Grupo 909073" transform="translate(11717.653 12270.896)">
+    <g id="Grupo_909065" data-name="Grupo 909065" transform="translate(-9 -10)">
+      <g id="Grupo_909064" data-name="Grupo 909064" transform="translate(18 4)">
+        <g id="Grupo_109582" data-name="Grupo 109582" transform="translate(-12645.333 -11837.896)">
+          <g id="Grupo_109582-2" data-name="Grupo 109582" transform="translate(602.18 -447.5)" opacity="0.7">
+            <g id="Grupo_909068" data-name="Grupo 909068" transform="translate(-6 1)">
+              <g id="Grupo_909069" data-name="Grupo 909069">
+                <circle id="Elipse_7032" data-name="Elipse 7032" cx="174.841" cy="174.841" r="174.841" transform="translate(369.159 66.159)" fill="none" stroke="#54ceff" stroke-miterlimit="10" stroke-width="1.202"/>
+                <circle id="Elipse_7033" data-name="Elipse 7033" cx="155.262" cy="155.262" r="155.262" transform="translate(388.738 85.738)" fill="none" stroke="#54ceff" stroke-miterlimit="10" stroke-width="1.202"/>
+              </g>
+              <path id="Trazado_117567" data-name="Trazado 117567" d="M588.3,450.41A214.906,214.906,0,0,1,544,455c-118.189,0-214-95.811-214-214S425.811,27,544,27" fill="none" stroke="#54ceff" stroke-miterlimit="10" stroke-width="1.202"/>
+              <g id="Grupo_109495" data-name="Grupo 109495">
+                <circle id="Elipse_7034" data-name="Elipse 7034" cx="2.5" cy="2.5" r="2.5" transform="translate(587 447.5)" fill="#54ceff"/>
+                <g id="Grupo_109494" data-name="Grupo 109494">
+                  <circle id="Elipse_7035" data-name="Elipse 7035" cx="7.5" cy="7.5" r="7.5" transform="translate(583.5 442.5)" fill="url(#radial-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                </g>
+              </g>
+              <g id="Grupo_109497" data-name="Grupo 109497">
+                <circle id="Elipse_7036" data-name="Elipse 7036" cx="2.5" cy="2.5" r="2.5" transform="translate(541 24.5)" fill="#54ceff"/>
+                <g id="Grupo_109496" data-name="Grupo 109496">
+                  <circle id="Elipse_7037" data-name="Elipse 7037" cx="7.5" cy="7.5" r="7.5" transform="translate(536 19.5)" fill="url(#radial-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                </g>
+              </g>
+              <g id="Grupo_909070" data-name="Grupo 909070" transform="translate(-213.5 214.001)" opacity="0.15">
+                <circle id="Elipse_7036-2" data-name="Elipse 7036" cx="2.5" cy="2.5" r="2.5" transform="translate(541 24.5)" fill="#54ceff"/>
+                <g id="Grupo_109496-2" data-name="Grupo 109496">
+                  <circle id="Elipse_7037-2" data-name="Elipse 7037" cx="7.5" cy="7.5" r="7.5" transform="translate(536 19.5)" fill="url(#radial-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                </g>
+              </g>
+              <g id="Grupo_909071" data-name="Grupo 909071" transform="translate(0 428.001)" opacity="0.15">
+                <circle id="Elipse_7036-3" data-name="Elipse 7036" cx="2.5" cy="2.5" r="2.5" transform="translate(541 24.5)" fill="#54ceff"/>
+                <g id="Grupo_109496-3" data-name="Grupo 109496">
+                  <circle id="Elipse_7037-3" data-name="Elipse 7037" cx="7.5" cy="7.5" r="7.5" transform="translate(536 19.5)" fill="url(#radial-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                </g>
+              </g>
+              <g id="Grupo_909072" data-name="Grupo 909072" transform="translate(215.5 214)" opacity="0.15">
+                <circle id="Elipse_7036-4" data-name="Elipse 7036" cx="2.5" cy="2.5" r="2.5" transform="translate(541 24.5)" fill="#54ceff"/>
+                <g id="Grupo_109496-4" data-name="Grupo 109496">
+                  <circle id="Elipse_7037-4" data-name="Elipse 7037" cx="7.5" cy="7.5" r="7.5" transform="translate(536 19.5)" fill="url(#radial-gradient)" style="mix-blend-mode: color-dodge;isolation: isolate"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Trazado_667144" data-name="Trazado 667144" transform="translate(-11715 -12057)" fill="#fff">
+      <path d="M39,36h0Z" stroke="none"/>
+      <path d="M 0 36 L 39 36 L 0 36 Z" stroke="none" fill="#707070"/>
+    </g>
+  </g>
+</svg>
