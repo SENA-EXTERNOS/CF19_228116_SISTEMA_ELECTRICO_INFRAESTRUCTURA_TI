@@ -191,7 +191,8 @@ export default {
     {
       referencia:
         'Ministerio de Minas y Energía. (s.f.). <i>minenergia.gov.co.</i> Recuperado el 10 de noviembre de 2022, de',
-      link: '',
+      link:
+        'https://www.minenergia.gov.co/documents/3809/Anexo_General_del_RETIE_vigente_actualizado_a_2015-1.pdf',
     },
     {
       referencia: 'ONAC. (2020, octubre 13). ONAC.',
@@ -214,7 +215,8 @@ export default {
     {
       referencia:
         'Universidad Nacional de la Plata. (s.f.). <i>Universidad Nacional de la Plata.</i> Recuperado el 10 de noviembre de 2022, de',
-      link: '',
+      link:
+        'https://yold.unlp.edu.ar/frontend/media/51/27751/5c5a8f71c013ea9277e46bcf4b1658b2.pdf',
     },
   ],
   creditos: {
